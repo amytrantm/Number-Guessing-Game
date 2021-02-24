@@ -1,1 +1,51 @@
 /* Write your CSS code in this file */
+h1 {
+  text-align: center;
+  color: rgb(225, 0, 255);
+  background-image: linear-gradient(rgb(251, 255, 0), rgb(72, 255, 0));
+}
+body {
+  background-image: url('https://image.freepik.com/free-photo/smiley-face-ball-background-sweet-retro-vintage-color_1421-379.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.emoji {
+    border-radius: 70%;
+    width: 60px;
+    height: 60px;
+}
+
+/* ul {
+  list-style-type: none; 
+} */
+/* remove dots */
+
+.guess {
+  display: inline-block;
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: pink;
+  border-radius: 50%; 
+  text-align: center;
+  vertical-align:middle;
+  color: Blue;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3rem;
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button, input {
+  width: 110px
+}
+
+button:hover {
+  color: rgb(225, 0, 255)
+}

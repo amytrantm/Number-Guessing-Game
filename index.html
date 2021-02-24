@@ -9,12 +9,44 @@
   </head>
 
   <body>
+    <div class = 'wrapper'>
+      <h1> Guessing Game</h1>
+      <ul id='guess-list'>
+        <li class='guess'><img class='emoji' src='https://www.pngkit.com/png/detail/10-105264_thinking-smiley-face-png-picture-royalty-free-stock.png' alt="thinking-face-emoji" ></li>
+        <li class='guess'><img class='emoji' src='https://www.pngkit.com/png/detail/10-105264_thinking-smiley-face-png-picture-royalty-free-stock.png' alt="thinking-face-emoji" ></li>
+        <li class='guess'><img class='emoji' src='https://www.pngkit.com/png/detail/10-105264_thinking-smiley-face-png-picture-royalty-free-stock.png' alt="thinking-face-emoji" ></li>
+        <li class='guess'><img class='emoji' src='https://www.pngkit.com/png/detail/10-105264_thinking-smiley-face-png-picture-royalty-free-stock.png' alt="thinking-face-emoji" ></li>
+        <li class='guess'><span><img class='emoji' src='https://www.pngkit.com/png/detail/10-105264_thinking-smiley-face-png-picture-royalty-free-stock.png' alt="thinking-face-emoji" ></span></li>
+        
+      </ul>
+      <h4 id='feedback'></h4> 
+      <!-- <h4> feedbackText </h4> -->
+    
+      <p id='show-hint'></p>
+      
+      <div>
+        <input id='input' placeholder="enter a number"></input>
+        <button id='submit-guess' type='submit' style= "background-color: rgb(221, 247, 128)">Guess</button>
+        
+      </div>
 
+      <div>
+        <br/>
+        <button id='hint' type='submit'>Hint</button>
+        <button id='play-btn' type='submit'>Play Again</button>
+        
+      </div>
+      <div>
+        <h5>Rules:</h5>
+        <ul>
+          <li>Enter your guess between 1 and 100.</li>
+          <li>You can use the Hint Button up to 2 times.</li>
+          <li>After five unsuccessful guesses, the game is over.</li>
+        </ul>
+      </div>
+    </div>
 
-
-
-
-    <!-- <script src='js/guessing-game.js'></script> -->
+    <script src='js/guessing-game.js'></script> 
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
 
